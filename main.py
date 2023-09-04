@@ -29,7 +29,7 @@
 # STRUCTURE = (gender,cape,head,eyes,neck,hair,hat,facial,body,arms,legs,wrists,gloves,dress,feet,shoulders,beards,bauldrons,shield)  # noqa: E501
 import os
 
-count=0
+
 # For Pure male 
 # Cape 
 cape = os.listdir('spritesheets/1.cape/male/')
@@ -45,8 +45,8 @@ nose = os.listdir('spritesheets/5.nose/')
 facial = os.listdir('spritesheets/6.facial/')     
 # body color
 body = os.listdir('spritesheets/7.body/bodies/male/')
-
 # hair
 hair = os.listdir('spritesheets/8.hair/male/')
+
 
 print(len(cape)*len(head)*len(eye)*len(ear)*len(nose)*len(facial)*len(body)*len(hair))
