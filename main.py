@@ -49,4 +49,4 @@ body = os.listdir('spritesheets/7.body/bodies/male/')
 hair = os.listdir('spritesheets/8.hair/male/')
 
 
-print(len(cape)*len(head)*len(eye)*len(ear)*len(nose)*len(facial)*len(body)*len(hair))
+print((len(cape)+1)*len(head)*len(eye)*len(ear)*len(nose)*(len(facial)+1)*len(body)*len(hair))
